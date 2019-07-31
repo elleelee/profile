@@ -1,0 +1,119 @@
+body {
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  margin: 40px auto 8px auto;
+}
+
+h2 {
+  margin: 10px auto 8px auto;
+}
+
+.content {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 30px auto 50px auto;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #91f2cb;
+}
+
+.font_lightgreen {
+  color: #91f2cb;
+}
+
+.white_box {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 30px 350px;
+  text-align: center;
+  color: rgba(50, 50, 50, 1);
+}
+
+.padding {
+  padding-bottom: 60px;
+}
+
+.green_box {
+  background-color: rgba(44, 62, 80, 0.9);
+  color: #fff;
+}
+
+.inline_icon {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.inline_icon li {
+  color: rgba(44, 62, 80, 1);
+  display: inline-block;
+  letter-spacing: 20px;
+  font-size: 30px;
+}
+
+.inline_icon li:hover {
+  color: #5BC79E;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.location p {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.location i {
+  font-size: 20px;
+}
+
+.btn_green {
+  background-color: rgba(44, 62, 80, 1);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn_green:hover {
+  background-color: #5BC79E;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .white_box {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .white_box {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .white_box {
+    width: 300px;
+  }
+}
+
+
+
+
